@@ -8,7 +8,10 @@
 // I AM NOT DONE
 
 fn main() {
-    let a = ???
+    let mut a = vec![];
+    for i in 0..1000 {
+        a.push(i);
+    }
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
