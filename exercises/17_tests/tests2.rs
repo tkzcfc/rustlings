@@ -8,10 +8,14 @@
 
 // I AM NOT DONE
 
+fn test_func() -> bool {
+    true
+}
+
 #[cfg(test)]
 mod tests {
     #[test]
     fn you_can_assert_eq() {
-        assert_eq!();
+        assert_eq!(super::test_func(), true);
     }
 }
